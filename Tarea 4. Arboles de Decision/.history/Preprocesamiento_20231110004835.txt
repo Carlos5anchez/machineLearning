@@ -1,0 +1,7 @@
+    SkinThikness = Se cambio el valor 0 por el promedio de los valores de la columna
+    Glucose = Se cambio el valor 0 por el promedio de los valores de la columna
+    Insulin = Se cambio el valor 0 por el promedio de los valores de la columna
+    BMI = Se cambio el valor 0 por el promedio de los valores de la columna
+    BloodPressure = Se cambio el valor 0 por el promedio de los valores de la columna
+
+    muestreo aleatorio con reemplazo

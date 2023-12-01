@@ -1,0 +1,53 @@
+Datos artificiales:
+son datos que no estan ahi, no pertenecen a la data original,pero deben de tener las caracteristicas de toda de mi data y los creamos por medio de mediciones o eventos.
+Cuando no poseo mis datos o tengo una pequeña cantidad de instancias necesito crear artificialmente mis datos. Los puedo crear cuando necesito datos para pruebas, o no tengo la cantidad necesaria para entrenar.
+
+Se pueden crear:
+-Texto sintetico
+-datos multimedia sintenticos (video,imagenes,sonidos,etc.)
+-Datos tabulares sintenticos
+
+Tambien lo puedo usar para crear ruido en mi sistema
+
+Pero hasta que punto puedo crear datos, ¿Seguira siendo veridica mi informacion si los creo?
+menor o igual a 40% de mi data puede ser creada
+
+
+Para crear mis datos tengo que verificar que mis distribuciones sean similares al iniciar y al finalizar deben asemejarse a la forma original de la distribucion 
+
+
+TEcticas de ruleta:
+	Crear datos muy semejantes a la distribucion original, a partir de la grafica de distribucion, 
+	primero genero una muestra de mi distribucuion gauciana, despues veo una funcion de aptitud, ver hasta que punto que tan bueno es que yo seleccione un dato en cierta distribucion
+	Le asigno un valor y despues veo la probabilidad de caer en ese sector.
+	ESto para mis datos sean la moda de mis datos cuya densidad de probabilidad este en el rango en el que yo deseo (en mi caso no quiero los valores que esten en las orillas)
+
+	Genero uno con la probabilidad, despues genero otro para su probabilidad 
+
+
+SMOTE : 
+YO busco la clase minoritaria, la que tiene menos instancias.
+Pongo un espacio de caracterisitcas, mostrando 
+Despues de distancias euclidianas, o cuadraticas utilizo tecnicas de interpolacion lineal con un valor aleatoria  
+
+Smote basado en knn:
+cONSISTE EN OBTENER UN PUNTO ALEATORIO Y medir las distancias con mis vecinos cercanos y obtengo un punto intermedio entre 
+se usa normalmente impares 3,5,7,9,11
+
+Tengo que sobrepoblar mi clase en comparacion de las siguientes
+
+ADASYN:
+muestreo adaptativo, la diferencia es que en lugar de buscar un interpolacion lineal, genero datos sinteticos a partir de la distancias, me consentro en la cantidad de puntos que voy a generar entre los dos puntos de los vecinos cercanos.
+Cominezo por asegurarme de tenr un conjunto de datos desequilibrado,
+Determinar el grado de desequilibrio
+Calcular la tasa de generacion sisnteticas:ES un paramentor que determina cuantos datos sinteticos se deben generar en relacion ccon el numero de datos de la clase minoritaria,. puedes ajustar este valor segun las necesitades y equilibrio de tus datos.
+
+
+
+kMEANS
+Buscar una base de datos para implementar el metodo de ruleta, y al mismo tiempo este
+
+kNN EXAMEN IMBALANCE
+
+Tarea Viernes 22
+

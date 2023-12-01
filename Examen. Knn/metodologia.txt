@@ -1,0 +1,16 @@
+Pasos:
+
+1.- Normalizar Datos:
+    .Sex: Cambiar a 0 y 1
+    .Age: Tiene outlayers, pocos con 80 años y muchos con 0 Años
+    .SibSp: Desbalanceo de clases, mas con 0 hermanos y menos con 8 hermanos/esposas
+    .Parch: Tiene datos mayores a la cantidad maxima de personas a bordo y no todos son flotantes, no hay relacion con alguna otra columna
+    .Ticket: Algunos datos estan invertidos con Fare y no todos son flotantes
+    .Fare: Contiene datos que no son flotantes 
+    .Cabin: Muy pocos datos de Queenstown
+
+2.- Imputacion de datos:
+    .Embarked: Se imputan nulos con la moda
+    .Fare: Se imputan nulos con la media
+    .cabin: Se imputan nulos con vecino cercano
+    .survived: desvalanceo de clases, se tienen extra, 300 datos de personas que no sobrevivieron 

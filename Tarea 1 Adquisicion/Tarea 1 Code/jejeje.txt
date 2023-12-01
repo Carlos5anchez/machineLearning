@@ -1,0 +1,52 @@
+Practica: Protocolo de adquisicion de datos
+Ciencia de datos, buscar
+
+Seleccionar una BD tabular
+TOmar en cuenta las consideraciones sin observar, los datos reales
+DEscripcion: 
+
+
+ponerme en el escenario en el que yo la haria.
+En el reporte
+TOmar en cuenta las consideraciones para adquirir datos.
+
+
+2.- Estadistica descriptiva de la BD real
+leer una bd y que me genere estadisticas de todos mis atributos.
+EStadistica por atributo:
+MInimo
+MAximo
+MEdia
+DEsviacion estandar
+CAntidad de datos faltantes por atributo
+Outlayers
+Distribucion (Boxplot, histograma) unimodal, normal
+# de instancias
+
+
+Atributo de decision (salida)
+# Observaciones por atributo
+
+REporte:
+
+INtroduccion
+MArco teorico
+Materiales y metodos
+REsultados
+DSiscusion
+COnclusiones
+
+25 entrega de reporte
+
+Datos propuestos:
+(idiomas) 
+(fecha inicio)
+(fecha fin)
+(motivo de salida) renuncia, despido, factores externos, etc
+(habilidades) bases de datos, estadistica, programacion, contabilidad, finanzas, etc
+(numeros de trabajos)
+(numero de proyectos)
+(años de experiencia)
+(certificaciones obtenidas) 
+(tamaño de la empresa) pequeña, mediana, grande
+(edad)

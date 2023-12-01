@@ -1,0 +1,52 @@
+================================  18 de agosto ===================================================
+
+Datos faltantes y problemas en la calidad de los datos:
+
+Calidad:
+
+-datos faltantes: 
+
+	Mcar: Faltan completamente aleatorios, cuando tengo diferentes datos de diferentes tipos de clases, me genera una incertidumbre al no conocer valores, no me genera ningun patron que pueda 							observar
+	Mnar (Missing not at random): Faltan datos pero se puede notar un patron de los datosm se puede determinar las carcteristicas de los datos al indagar sobre mi base de datos
+	MAR (Missing at random): SI es aleatorio pero no depende de un atributo, cuando solo faltan datos de una sola categoria y las demas estan bien, y no puedo determinar como es su patron	
+
+
+Tips:
+No se recomienda quitar la instancia completa
+No se recomienda quitar el atributo completo
+
+GAnancia de informacion,: de todos los atributos cuanto me aporta a la bd 
+
+
+-outlayers (datos atipicos): datos que se localizan muy alejados de la tendencia centra de una caracteristica.
+
+-cardinalidad: Cuando no se esperan valores que deberian ir en la celda ej: Hombre, mujer y aparece otra cosa de mis opciones (tiene relacion con el atributo)
+
+
+===================================================
+
+Imputacion de datos: Estimacion de datos
+
+	-TECNICAS POR INFORMACION EXTERNA O DEDUCTIVA (Tecnicas LUT): A partir de datos muy parecidos, puedo inferir la misma informacion, pero en la myproa de casos no se tiene la informacion para poder hacerlo.
+	-TECNICAS DETERMINISTAS: DE acuerdo a las mismas condiciones de datos, producen las mismas respuestas. ejemplo temperatura, si lo pongo en una serie de tiempo se puede observar la tendencia de los datos. 
+		----Por regresion: (se peude hacer con una regresion para observar la tendencia).
+		----Por Media / Moda: Buscar entre datos antes y despues, problema: si tengo muchos datos faltantes, estare imputando datos con los datos sinteticos que estoy llenando (sesgando mi informacion)
+		----Media por clases: se calcula la media de las intancias que tienen valor por cada clase .
+		----Por vecino mas cercano: Se busca a partir d eun atributo que no sea d emi dato faltante, y partir de ahi empiezo a llenar mis datos, se puede usar corelacion de pearson para ver la correlacion del atributro que tengo que elegir.
+		----Algortimo EM: Expectation maximation, buscar el costo minimo de representar un valor, me detengo cuando minimice mi error y maximice la relacion de mis datos, modelo iterativo
+		
+	-TECNICAS estocástica (ALEATORIAS): Aquellas cuando se repite el metodo bajo las mismas condiciones entregan datos diferentes, ejemplo: a partir de una celda buscar u nvalor aleatorio entre el minimo y el maximo (se busca que estre centrado en el sigma central) el sigma es la cupula de la gausiana que es donde esta la mi mayor cantidad de datos.
+	
+		--- secuencia (hot deck): se comienza desde una dato inicial de maneara aleatoria y se reemplza el dato faltante con ese dato inciial, despues de toma el siguiente datos que se tiene y se reemplza con el dato faltante y asi sucesivamente.
+	
+	
+	- TECNICAS multiples: 
+			---iMPUTACION MULTIPLE DE CADENAS DE MARKOV: simulacion parametrica generando muestras aleatorias a partir de probabilidad acumulada
+			---- MULTIPLE por ecuaciones encadenadas: regresion iterativa hasta que se acomoden mejor mis datos
+	
+
+
+Tips: 
+Evaluar la distribucion de los datos: SIrve para determinar el mejor metodo de imutacion
+Tipo de valor faltante
+Numero de datos faltantes

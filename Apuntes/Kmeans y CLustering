@@ -1,0 +1,84 @@
+Tipos de aprendizaje
+-Supervisado
+-AUtomatico
+
+
+Kmeans, es un aprendizaje automatico, ya que no necesito darle las etiquetas o la categoria al que perteneces,
+lo que hace el algoritmo es ver a nive global, voy a agrupar a partir de clustering (grupos).
+
+
+menor cantidad de cluster que me den mayor informacion
+wcss :s uma de cuadrados maxima en la que yo voy a tener una distancia maxima para poder saber mi distancia entre un punto y otro y entre un grupo y otro.
+Agrupammiento:
+A veces no podemos saber cuantos grupos tengo que hacer, 
+CAracteristicas:
+EScalabilidad
+
+Tipos:
+CLustering: Anidado:
+	Tengo subconjuntos, pertenecientoes a mis clases. 
+	Ejemplo, Reptiles, se subdivide con serpientes y lagartijas... etc
+
+CLustering exclusivos: Cada dato solo pertenece a una clase (KMEANS)
+CLustering Difuso:
+	Fuzzy cluster means y fuzzy cluster substractive: TEngo mis funciones difuzas hago mi inferencia difuza, yo puedo tener un grado de ertenencia tal a diferentes funciones.
+	cuando estan enmedio a las clases, se busca un grado de pertenencia, pero pertenecen a los dos 
+Clusterin Parcial:
+PUedo tener miembros de un grupo A y otro grupo b pero tener datos en losque no se busque agrupar. 
+
+CEntroide: CEntro geometrico de mi grupo
+
+
+
+Modelo de clustering:
+Kmens:
+Kmeans++:
+Kmeans esferico
+Kmenas basado en kernel
+Kmeans difuso
+
+
+Agrupamiento jerarquico
+CLustering jerarquico
+CURE 
+HC
+BIRCH: Primero empeizo a ver que todos sean miembros de un mismo grupo, depsues a oartir de las distancias veo cuantos subgrupos puedo crear a partir de ese grupo, ahora veo de cada subfrupo puedo observar de nuevo las distancias para crear subgrupos. No se guarda en memoria si no en disco, solo almacena nodos y punteros correspondientes.
+
+Basado en densidad: cuando no puedo usar kmeans por que me los agrupan mal, se determina en que tan cerca esta la poblacion:
+PAra eso es necesario el epsilon que equivale a la distancia maxima que pueden tener mis datos, 
+-dbscan
+-hdbscan : Agromero core distance
+
+
+LAs medidas de distancia para este tipo de modelos de clustering son: 
+Euclidiana, MInkowsky o MAnhattan
+
+
+SI no tengo mis datos etiqquetados ,necesito el metodo del codo para determinar el numero de clusters
+
+
+Kmens: Miembros de solo un grupo, elegir ul menor grupo de agrupaciones para minimizar la distancia intracluster y maximizar la distancia intercluster
+
+PAsos:
+Etapa1: INicializo los centroides de manera aleatoria
+Etapa2 : Apartir de cada centroide calculo la distancia entre el centroide y los puntos cercanos y me quedo con las mas cercanas
+Etapa3: UNa vez que todos son colocados, recalcular los centros de k cluster.
+Etapa 4: Seguir haciendo hasta tener un criterio de convejencia, hasta que ya no se muevan mis centroides.
+
+
+
+
+
+
+Kmeasn++:
+CAmbia como inicializo los centroides, 
+
+
+
+Kmeans++ practica, metodo de ruleta para crear datos sintenticos abordarlo y comprararlos con otros tipos de agrupaciones. compararlo con FCM 
+
+
+
+
+
+

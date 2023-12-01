@@ -1,0 +1,79 @@
+Siempre buscar generalizacion
+
+
+===========================================11 de agosto ================================================
+Metadatos: Informacion de los datos
+Instancia: ROw 
+Atributo: COlumna
+Imputar: Poner valores faltantes
+
+Datos:
+Factores importantes a tomar en cuenta
+
+Como recopilar datos
+
+ALgunas veces es necesario recopilar datos de diferentes fuentes de informacion, y apartir de eso es necesario generar la estadistica. Todo esto para ver los diferentes patrones que podemos obtener por la naturaleza de los datos.
+
+Los datos son inservibles si no se hace nada con ellos.
+
+Factores a considerar:
+
+Agrupar datos:
+-Cuantitativo 
+-Cualitativo
+
+Definir las preguntas:
+-Que datos quiero obtener 
+-Que preprocesamiento voy a usar
+-Cuantos datos minimo
+
+
+Principales problemas al preprocesamiento:
+-valores faltantes
+-outlayer
+-problemas de cardinalidad
+
+
+
+Analizar los datos: El analisis incluye: ver la distribucion de datos, relaciones, tendencia, observar si tiene datos atipicios 
+
+Practica: Protocolo de adquisicion de datos
+Ciencia de datos, buscar
+Seleccionar una BD tabular
+TOmar en cuenta las consideraciones sin observar, los datos reales
+DEscripcion: 
+
+
+
+
+ponerme en el escenario en el que yo la haria.
+En el reporte
+TOmar en cuenta las consideraciones para adquirir datos.
+
+
+2.- Estadistica descriptiva de la BD real
+leer una bd y que me genere estadisticas de todos mis atributos.
+EStadistica por atributo:
+MInimo
+MAximo
+MEdia
+DEsviacion estandar
+CAntidad de datos faltantes por atributo
+Outlayers
+Distribucion (Boxplot, histograma) unimodal, normal
+# de instancias
+
+
+Atributo de decision (salida)
+# Observaciones por atributo
+
+REporte:
+
+INtroduccion
+MArco teorico
+Materiales y metodos
+REsultados
+DSiscusion
+COnclusiones
+
+25 entrega de reporte

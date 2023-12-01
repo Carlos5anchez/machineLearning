@@ -1,0 +1,12 @@
+PassengerId: ID único del pasajero. Num
+Survived: 1 si el pasajero sobrevivió, 0 si no. Num
+Pclass: Clase del boleto (1, 2 o 3). Num
+Name: Nombre del pasajero. string
+Sex: Género del pasajero. string
+Age: Edad del pasajero. Num
+SibSp: Número de hermanos/cónyuges a bordo. Num
+Parch: Número de padres/hijos a bordo. string
+Ticket: Número del boleto. string
+Fare: Tarifa pagada por el pasajero. string
+Cabin: Número de cabina. string
+Embarked: Puerto de embarque (C = Cherbourg, Q = Queenstown, S = Southampton). 
